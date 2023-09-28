@@ -18,6 +18,8 @@ int main()
     //call debugcheck cod that will send request to the clever enginge to check for debugger drivers that are loaded
     cdebug::debugcheck();
     Sleep(1000);
+    printf("[+] sent servicekill request !\n");
+    //call debugcheck cod that will send request to the clever enginge to kill debugger drivers that are loaded
     cdebug::servicekill();
     system("pause >nul");
 }

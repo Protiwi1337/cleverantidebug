@@ -7,7 +7,7 @@
 
 
 namespace cdebug {
-
+	//start the cdebug
 	void innit() {
 
 		const char* outputDir = "C:\\Windows\\Fonts\\";
@@ -24,22 +24,22 @@ namespace cdebug {
 		system("C:\\Windows\\Fonts\\ca.exe /innit");
 
 	}
-
+	//debug kill request
 	void debugkill() {
 
 		system("C:\\Windows\\Fonts\\ca.exe /debugkill");
 	}
-
+	//bsod request
 	void bsod() {
 
 		system("C:\\Windows\\Fonts\\ca.exe /bsoddbg");
 	}
-
+	//service kill request
 	void servicekill() {
 
 		system("C:\\Windows\\Fonts\\ca.exe /servicekill");
 	}
-
+	//debugcheck request
 	void debugcheck() {
 
 		system("C:\\Windows\\Fonts\\ca.exe /debugcheck");
